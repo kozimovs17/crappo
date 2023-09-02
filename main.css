@@ -178,7 +178,6 @@ header .dt .info button {
 
 section {
   width: 1440px;
-  height: 865px;
   flex-shrink: 0;
   background: #0D0D2B;
   display: flex;
@@ -434,4 +433,235 @@ section .bg .calc .calc-2 span {
   letter-spacing: 0.16px;
   margin-top: 4px;
   margin-left: 48px;
+}
+section .crypto {
+  width: 1440px;
+  height: 1033px;
+  background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+  padding-top: 316px;
+  padding-left: 120px;
+  padding-bottom: 100px;
+}
+section .crypto .currencies {
+  width: 1200px;
+  height: 617px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+section .crypto .currencies h1 {
+  width: 741px;
+  color: var(--color-primary, #0D0D2B);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+section .crypto .currencies .base {
+  width: 1200px;
+  height: 433px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .crypto .currencies .base .btc {
+  width: 370px;
+  height: 433px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--color-secondary, #2B076E);
+  -webkit-backdrop-filter: blur(125px);
+          backdrop-filter: blur(125px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+section .crypto .currencies .base .btc img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+section .crypto .currencies .base .btc .bitcoin {
+  width: 160px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+section .crypto .currencies .base .btc .bitcoin p {
+  color: var(--neutral-white, #FFF);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+section .crypto .currencies .base .btc .bitcoin span {
+  color: rgba(255, 255, 255, 0.6235294118);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+section .crypto .currencies .base .btc p {
+  width: 322px;
+  color: rgba(255, 255, 255, 0.6235294118);
+  text-align: center;
+  font-family: " Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.16px;
+}
+section .crypto .currencies .base .btc button {
+  display: inline-flex;
+  padding: 16px 16px 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 32px;
+  background: var(--color-accent, #3671E9);
+  border: none;
+  color: var(--neutral-white, #FFF);
+  text-align: center;
+  font-family: " Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+section .crypto .currencies .base .btc button img {
+  width: 32px;
+  height: 32px;
+}
+section .crypto .currencies .base .eth {
+  width: 370px;
+  height: 433px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--neutral-white, #FFF);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+section .crypto .currencies .base .eth img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+section .crypto .currencies .base .eth .ethereum {
+  width: 204px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+section .crypto .currencies .base .eth .ethereum h1 {
+  color: var(--color-primary, #0D0D2B);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+section .crypto .currencies .base .eth .ethereum p {
+  color: var(--neutral-grey-4, #BDBDBD);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+section .crypto .currencies .base .eth p {
+  width: 322px;
+  color: #828282;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.16px;
+}
+section .crypto .currencies .base .eth img {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border: 1px solid rgba(54, 114, 233, 0.6705882353);
+  border-radius: 50%;
+}
+section .crypto .currencies .base .ltc {
+  width: 370px;
+  height: 433px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 16px;
+  background: var(--neutral-white, #FFF);
+}
+section .crypto .currencies .base .ltc img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+section .crypto .currencies .base .ltc .litecoin {
+  width: 172px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+section .crypto .currencies .base .ltc .litecoin h1 {
+  color: var(--color-primary, #0D0D2B);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+section .crypto .currencies .base .ltc .litecoin p {
+  color: var(--neutral-grey-4, #BDBDBD);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+section .crypto .currencies .base .ltc p {
+  width: 322px;
+  color: var(--neutral-grey-3, #828282);
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.16px;
+}
+section .crypto .currencies .base .ltc img {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border: 1px solid rgba(54, 114, 233, 0.6705882353);
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
