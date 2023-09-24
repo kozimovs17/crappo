@@ -664,4 +664,243 @@ section .crypto .currencies .base .ltc img {
   flex-shrink: 0;
   border: 1px solid rgba(54, 114, 233, 0.6705882353);
   border-radius: 50%;
+}
+section .features {
+  width: 1440px;
+  height: 1874px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  background: #2B076E;
+  position: relative;
+}
+section .features .circle {
+  position: absolute;
+  left: 151px;
+}
+section .features .title {
+  width: 758px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 100px;
+}
+section .features .invest {
+  width: 1134px;
+  height: 427px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .features .invest .info {
+  width: 454px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+section .features .invest .info h1 {
+  width: 454px;
+  color: #FFF;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+section .features .invest .info p {
+  width: 408px;
+  color: #E0E0E0;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.16px;
+}
+section .features .invest .info button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 32px;
+  background: #3671E9;
+  color: #FFF;
+  text-align: center;
+  font-family: "Rubik";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  border: none;
+}
+section .features .invest .chart {
+  width: 580px;
+  height: 427px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+section .features .invest .chart .frame {
+  width: 580px;
+  height: 298px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #35068C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .features .invest .chart .frame .info {
+  width: 500px;
+  height: 50px;
+  position: relative;
+}
+section .features .invest .chart .frame .info .btc {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+section .features .invest .chart .frame .info h1 {
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  left: 56px;
+  top: 0;
+}
+section .features .invest .chart .frame .info h4 {
+  position: absolute;
+  left: 146px;
+  top: 5px;
+  color: rgba(207, 207, 207, 0.5490196078);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section .features .invest .chart .frame .info p {
+  position: absolute;
+  right: 0;
+  top: 12px;
+  color: #42FFFF;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+section .features .invest .chart .frame .info span {
+  color: rgba(242, 242, 242, 0.631372549);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  position: absolute;
+  left: 56px;
+  bottom: 0;
+}
+section .features .invest .chart .frame2 {
+  width: 178px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #491F98;
+  -webkit-backdrop-filter: blur(125px);
+          backdrop-filter: blur(125px);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 24px;
+  position: absolute;
+  left: 64px;
+  top: 243px;
+}
+section .features .invest .chart .frame2 h2 {
+  width: 146px;
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+section .features .invest .chart .frame2 .link {
+  width: 98px;
+  height: 29px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 7px;
+}
+section .features .invest .chart .frame2 .link h1 {
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+section .features .invest .chart .frame2 p {
+  color: rgba(242, 242, 242, 0.4784313725);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+section .features .invest .chart .frame3 {
+  width: 169px;
+  height: auto;
+  border-radius: 16px;
+  background: #491F98;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+  position: absolute;
+  right: 56px;
+  bottom: 88px;
+  gap: 4px;
+}
+section .features .invest .chart .frame3 h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+section .features .invest .chart .frame3 p {
+  color: rgba(242, 242, 242, 0.4784313725);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
 }/*# sourceMappingURL=main.css.map */
