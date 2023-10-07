@@ -209,6 +209,7 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 
     .numbers {
         width: 1200px;
@@ -757,7 +758,7 @@ section {
         flex-direction: column;
         align-items: center;
         gap: 100px;
-        background: #2B076E;
+        background-color: #2B076E;
         position: relative;
 
         .circle {
@@ -1013,5 +1014,136 @@ section {
             }
         }
 
+        .statistics {
+            width: 1255px;
+            height: 453px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            left: 0;
+            top: 867px;
+
+            .statistics-info {
+                width: 456px;
+                height: 247px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 25px;
+
+                h1 {
+                    width: 454px;
+                    color: #FFF;
+                    font-family: 'Rubik';
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 150%;
+                }
+
+                p {
+                    width: 408px;
+                    color: #E0E0E0;
+                    font-family: ' Rubik';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 28px;
+                    letter-spacing: 0.16px;
+                }
+
+                button {
+                    display: inline-flex;
+                    padding: 16px 32px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 24px;
+                    border-radius: 32px;
+                    background: #3671E9;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: ' Rubik';
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    border: none;
+                }
+            }
+        }
+
+        .grow {
+            width: 1200px;
+            height: 334px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            bottom: 100px;
+            left: 120px;
+            z-index: 8;
+
+            .grow-info {
+                width: 454px;
+                height: 295.003px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 25px;
+
+
+                h1 {
+                    width: 454px;
+                    color: #FFF;
+                    font-family: ' Rubik';
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 150%;
+                }
+
+                p {
+                    width: 408px;
+                    color: #E0E0E0;
+                    font-family: 'Rubik';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 28px;
+                    letter-spacing: 0.16px;
+                }
+
+                button {
+                    display: inline-flex;
+                    padding: 16px 32px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 24px;
+                    border-radius: 32px;
+                    background: #3671E9;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: ' Rubik';
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    border: none;
+                }
+            }
+        }
+
+        .circle2 {
+            width: 686px;
+            height: 686px;
+            transform: rotate(-120deg);
+            border-radius: 686px;
+            background: conic-gradient(from 180deg at 50% 50%, rgba(255, 255, 255, 0.10) 0deg, rgba(255, 255, 255, 0.00) 360deg);
+            position: absolute;
+            left: 1120px;
+            bottom: -376px;
+            
+        }
     }
 }
