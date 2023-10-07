@@ -1133,17 +1133,113 @@ section {
                 }
             }
         }
+    }
 
-        .circle2 {
-            width: 686px;
-            height: 686px;
-            transform: rotate(-120deg);
-            border-radius: 686px;
-            background: conic-gradient(from 180deg at 50% 50%, rgba(255, 255, 255, 0.10) 0deg, rgba(255, 255, 255, 0.00) 360deg);
-            position: absolute;
-            left: 1120px;
-            bottom: -376px;
-            
+    .start-mining {
+        width: 1440px;
+        height: 392px;
+        background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        .start-item {
+            width: 1200px;
+            height: 216px;
+            border-radius: 16px;
+            background: #3671E9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .start-rs1{
+                position: absolute;
+                top: 0;
+                left: 22px;
+            }
+    
+            .start-rs2{
+                position: absolute;
+                bottom: 0;
+                right: 15px;
+            }
+    
+
+            .start-frame {
+                width: 1104px;
+                height: 120px;
+                flex-shrink: 0;
+                display: flex;
+                align-items: center;
+
+                .start-info {
+                    width: 501px;
+                    height: 120px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 16px;
+
+                    h1 {
+                        color: #FFF;
+                        font-family: 'Rubik';
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 150%;
+                    }
+
+                    p {
+                        width: 348px;
+                        color: #FFF;
+                        font-family: 'Rubik';
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.16px;
+                    }
+                }
+
+                .start-frame2 {
+                    width: 566px;
+                    height: 55px;
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    input {
+                        width: 374px;
+                        height: 35px;
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid #fff;
+                        background-color: transparent;
+                    }
+
+                    button {
+                        display: inline-flex;
+                        padding: 14px 32px;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 32px;
+                        background: #FFF;
+                        color: #0D0D2B;
+                        text-align: center;
+                        font-family:' Rubik';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                        border: none;
+                    }
+                }
+            }
         }
     }
 }
