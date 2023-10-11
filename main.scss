@@ -1271,11 +1271,13 @@ section {
             position: absolute;
             bottom: 0;
             left: 35px;
+            z-index: -1;
         }
 
         .back2 {
             position: absolute;
             left: 495px;
+            z-index: -1;
         }
     }
 

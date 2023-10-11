@@ -1113,10 +1113,12 @@ section .start-mining .back1 {
   position: absolute;
   bottom: 0;
   left: 35px;
+  z-index: -1;
 }
 section .start-mining .back2 {
   position: absolute;
   left: 495px;
+  z-index: -1;
 }
 section .footer {
   width: 1440px;
