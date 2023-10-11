@@ -289,7 +289,7 @@ section .bg {
   width: 1440px;
   height: 457px;
   flex-shrink: 0;
-  background: var(--color-primary, #0D0D2B);
+  background: #0D0D2B;
   position: relative;
 }
 section .bg .info4 {

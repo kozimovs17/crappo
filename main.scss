@@ -211,6 +211,7 @@ section {
     justify-content: space-around;
     position: relative;
 
+    // NUMBERS 
     .numbers {
         width: 1200px;
         height: 92px;
@@ -258,6 +259,9 @@ section {
         }
     }
 
+    // NUMBERS-FINISH
+
+    // CONTENT 
     .content {
         width: 1200px;
         height: 473px;
@@ -320,11 +324,16 @@ section {
         }
     }
 
+    // CONTENT-FINISH
+
+
+
+    // BG 
     .bg {
         width: 1440px;
         height: 457px;
         flex-shrink: 0;
-        background: var(--color-primary, #0D0D2B);
+        background: #0D0D2B;
         position: relative;
         // border: 1px solid red;
 
@@ -486,6 +495,10 @@ section {
         }
     }
 
+    // BG-FINISH
+
+
+    // CRYPTO 
     .crypto {
         width: 1440px;
         height: 1033px;
@@ -751,6 +764,11 @@ section {
         }
     }
 
+    // CRYPTO-FINISH
+
+
+
+    // FEATURES
     .features {
         width: 1440px;
         height: 1874px;
@@ -1135,6 +1153,12 @@ section {
         }
     }
 
+    // FEATURES-FINISH
+
+
+
+
+    // START-MINING
     .start-mining {
         width: 1440px;
         height: 392px;
@@ -1242,17 +1266,24 @@ section {
                 }
             }
         }
-        .back1{
+
+        .back1 {
             position: absolute;
             bottom: 0;
             left: 35px;
         }
-        .back2{
+
+        .back2 {
             position: absolute;
             left: 495px;
         }
     }
 
+    // START-MINING-FINISH
+
+
+
+    // FOOTER
     .footer {
         width: 1440px;
         height: 552px;
@@ -1360,4 +1391,6 @@ section {
             right: 120px;
         }
     }
+
+    // FOOTER-FINISH
 }
