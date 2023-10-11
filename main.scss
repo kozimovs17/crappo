@@ -1142,6 +1142,7 @@ section {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
 
 
 
@@ -1241,12 +1242,21 @@ section {
                 }
             }
         }
+        .back1{
+            position: absolute;
+            bottom: 0;
+            left: 35px;
+        }
+        .back2{
+            position: absolute;
+            left: 495px;
+        }
     }
 
     .footer {
         width: 1440px;
         height: 552px;
-        background: var(--color-primary, #0D0D2B);
+        background: #0D0D2B;
         padding: 80px 120px;
         display: flex;
         align-items: flex-start;
