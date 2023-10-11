@@ -1155,18 +1155,18 @@ section {
             justify-content: center;
             position: relative;
 
-            .start-rs1{
+            .start-rs1 {
                 position: absolute;
                 top: 0;
                 left: 22px;
             }
-    
-            .start-rs2{
+
+            .start-rs2 {
                 position: absolute;
                 bottom: 0;
                 right: 15px;
             }
-    
+
 
             .start-frame {
                 width: 1104px;
@@ -1231,7 +1231,7 @@ section {
                         background: #FFF;
                         color: #0D0D2B;
                         text-align: center;
-                        font-family:' Rubik';
+                        font-family: ' Rubik';
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 500;
@@ -1240,6 +1240,114 @@ section {
                     }
                 }
             }
+        }
+    }
+
+    .footer {
+        width: 1440px;
+        height: 552px;
+        background: var(--color-primary, #0D0D2B);
+        padding: 80px 120px;
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+
+        .footer-logo {
+            margin-right: 171px;
+        }
+
+        .quick-link {
+            width: 200px;
+            height: 244px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-right: 35px;
+
+            h3 {
+                color: #FFF;
+                font-family: ' Rubik';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                width: 200px;
+                height: 30px;
+            }
+
+            ul {
+                width: 200px;
+                height: 190px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #F2F2F2;
+                    font-family: 'Rubik';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 38px;
+                }
+            }
+        }
+
+        .payment {
+            width: 355px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 40px;
+            margin-left: 69px;
+
+            .cards {
+                width: 355px;
+                height: 64px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 24px;
+            }
+
+            h1 {
+                width: 355px;
+                color: #FFF;
+                font-family: 'Rubik';
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+            }
+        }
+
+        .footer-info {
+            width: 391px;
+            color: #FFF;
+            font-family: 'Rubik';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.16px;
+            position: absolute;
+            bottom: 80px;
+            left: 120px;
+        }
+
+        .footer-links {
+            width: 248px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            position: absolute;
+            bottom: 80px;
+            right: 120px;
         }
     }
 }

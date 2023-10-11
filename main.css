@@ -1107,4 +1107,101 @@ section .start-mining .start-item .start-frame .start-frame2 button {
   font-weight: 500;
   line-height: 150%;
   border: none;
+}
+section .footer {
+  width: 1440px;
+  height: 552px;
+  background: var(--color-primary, #0D0D2B);
+  padding: 80px 120px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+section .footer .footer-logo {
+  margin-right: 171px;
+}
+section .footer .quick-link {
+  width: 200px;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: 35px;
+}
+section .footer .quick-link h3 {
+  color: #FFF;
+  font-family: " Rubik";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  width: 200px;
+  height: 30px;
+}
+section .footer .quick-link ul {
+  width: 200px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style: none;
+}
+section .footer .quick-link ul a {
+  text-decoration: none;
+  color: #F2F2F2;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+section .footer .payment {
+  width: 355px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  margin-left: 69px;
+}
+section .footer .payment .cards {
+  width: 355px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+section .footer .payment h1 {
+  width: 355px;
+  color: #FFF;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+section .footer .footer-info {
+  width: 391px;
+  color: #FFF;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.16px;
+  position: absolute;
+  bottom: 80px;
+  left: 120px;
+}
+section .footer .footer-links {
+  width: 248px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  bottom: 80px;
+  right: 120px;
 }/*# sourceMappingURL=main.css.map */
